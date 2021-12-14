@@ -38,11 +38,11 @@ pid_t wait(int *status)
 pid_t waitpid(pid_t pid, int *status, int options)
 参数：
 	pid：指定回收子进程pid的资源
-		 >0: 待回收的子进程pid
-          -1：任意子进程
-           0：同组的子进程。
-    status：（传出） 回收进程的状态。
-    options：WNOHANG指定回收方式为非阻塞。
+		>0: 待回收的子进程pid
+		-1：任意子进程
+		0：同组的子进程。
+	status：（传出） 回收进程的状态。
+	options：WNOHANG指定回收方式为非阻塞。
 
 返回值：
     >0: 表成功回收的子进程pid
