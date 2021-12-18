@@ -11,32 +11,29 @@
   
 - **C-相关函数.md**
   - fork
+  
   - getpid
+  
   - wait
+  
   - waitpid
   
-- **code**
+    
   
-  - simple-fork/a_create_fork.c
-    - 创建进程练习
-  - simple-fork/b_create_five_child_forks.c
-    - 创建多进程
-  - simple-fork/c_wait_child_process.c
-    - wait阻塞回收子进程
-  - simple-fork/d_create_proc_wait_check_status.c
-    - wait阻塞回收子进程并且检查子进程返回的状态
-  - simple-fork/e_waitpid_child_proc_noblock.c
-    - waitpid非阻塞循环回收指定pid的子进程
-  - simple-fork/f_waitpid_child_proc_block.c
-    - waitpid阻塞回收指定pid的子进程
-    
-    
-
 - **进程间通信方式-管道.md**
-  - 详细请阅读该文档
+  - 详细请阅读该文档，以及相关代码
 
 
 
 - **进程间通信方式-mmap.md**
-  - 详细请阅读该文档
+  - 详细请阅读该文档，以及相关代码
+  
+  
+
+- **code**
+  - 相关代码实践
+
+​	
+
+​	
 
